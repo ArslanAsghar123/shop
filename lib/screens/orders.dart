@@ -20,7 +20,7 @@ bool _isloading = false;
      Provider.of<Orders>(context,listen:false ).fetchAndSet().then((value) => null);
      setState(() {
        _isloading = false;
-     });;
+     });
     super.initState();
   }
   @override
